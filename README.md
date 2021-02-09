@@ -5,6 +5,14 @@ A test project for debugging an issue of integrating preact with styled-componen
 
 2. Importing that preact project (as widget) inside a react project.
 
+react v17.0.1
+
+react-dom v17.0.1
+
+preact v10.5.12
+
+styled-components v5.2.1
+
 ## Follow the next instructions by order to init the projects:
 
 ### Acting as NPM module & Building as widget (Second-widget)  -- second widget --:
