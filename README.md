@@ -15,7 +15,7 @@ A test project for debugging an issue of integrating preact with styled-componen
 
 - styled-components v5.2.1
 
-## Follow the next instructions by order to init the projects:
+## Follow the next instructions by order to init the projects (You could dismiss second widget instructions for now):
 
 ### Acting as NPM module & Building as widget (Second-widget)  -- second widget --:
 
