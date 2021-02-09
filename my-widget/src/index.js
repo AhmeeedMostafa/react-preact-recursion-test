@@ -1,6 +1,6 @@
 import { h, render } from "preact";
 import styled from 'styled-components';
-import SecondWidget from 'second-widget';
+// import SecondWidget from 'second-widget';
 
 // Create a Title component that'll render an <h1> tag with some styles
 const Title = styled.h1`
@@ -22,9 +22,9 @@ const MyWidget = (props) => {
       <Title>
         Hello World!
       </Title>
-			<SecondWidget />
+			{/* <SecondWidget /> */}
     </Wrapper>,
-	  document.getElementById(props.target)
+	  document.getElementById(props.target || 'root')
   );
 }
 

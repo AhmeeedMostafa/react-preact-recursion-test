@@ -16,46 +16,19 @@
   "author": "Zouhir <zouhir@zouhir.org>",
   "license": "MIT",
   "devDependencies": {
+    "@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.1",
+    "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^4.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
-    "microbundle": "^0.6.0",
-    "node-sass": "^4.5.3",
-    "preact-cli": "^2.0.2",
+    "microbundle": "^0.13.0",
+    "node-sass": "^5.0.0",
+    "preact-cli": "^3.0.5",
     "preact-widget-scripts": "^0.6.0",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^11.0.1"
   },
   "dependencies": {
     "preact": "^10.5.12",
     "styled-components": "^5.2.1"
-  },
-  "jest": {
-    "verbose": true,
-    "transform": {
-      "^.+\\.js$": "babel-jest"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "testEnvironment": "node",
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|scss|less)$": "identity-obj-proxy",
-      "^react$": "preact-compat",
-      "^react-dom$": "preact-compat"
-    },
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    },
-    "moduleDirectories": [
-      "node_modules",
-      "src"
-    ]
   }
 }

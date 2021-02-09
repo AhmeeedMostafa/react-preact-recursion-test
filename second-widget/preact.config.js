@@ -8,4 +8,9 @@ export default (config, env, helpers) => {
   if (env.production) {
     config.output.libraryTarget = "umd";
   }
+
+  
+  config.resolve.alias['react'] = 'preact/compat';
+  config.resolve.alias['react-dom/test-utils'] = 'preact/test-utils';
+  config.resolve.alias['react-dom'] = 'preact/compat';
 };
