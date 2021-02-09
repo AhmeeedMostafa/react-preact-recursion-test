@@ -1,5 +1,6 @@
 import { h, render } from "preact";
 import styled from 'styled-components';
+import Test from "./test";
 // import SecondWidget from 'second-widget';
 
 // Create a Title component that'll render an <h1> tag with some styles
@@ -19,6 +20,8 @@ const Wrapper = styled.section`
 const MyWidget = (props) => {
 	render(
     <Wrapper>
+      <div>Normal</div>
+      <Test />
       <Title>
         Hello World!
       </Title>
