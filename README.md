@@ -1,17 +1,19 @@
 A test project for debugging an issue of integrating preact with styled-components inside react contains of (preact project as widget `second-widget` integrated inside another preact project as widget `my-widget` integrated inside react project as main application `my-app`).
 
 ### The issue producing steps
+
 1. Adding styled-components to preact project & using some styled component inside it.
 
 2. Importing that preact project (as widget) inside a react project.
 
-react v17.0.1
 
-react-dom v17.0.1
+- react v17.0.1
 
-preact v10.5.12
+- react-dom v17.0.1
 
-styled-components v5.2.1
+- preact v10.5.12
+
+- styled-components v5.2.1
 
 ## Follow the next instructions by order to init the projects:
 
