@@ -1,4 +1,11 @@
-Following the next instructions by order:
+A test project for debugging an issue of integrating preact with styled-components inside react contains of (preact project as widget `second-widget` integrated inside another preact project as widget `my-widget` integrated inside react project as main application `my-app`).
+
+### The issue producing steps
+1. Adding styled-components to preact project & using some styled component inside it.
+
+2. Importing that preact project (as widget) inside a react project.
+
+## Follow the next instructions by order to init the projects:
 
 ### Acting as NPM module & Building as widget (Second-widget)  -- second widget --:
 
